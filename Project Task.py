@@ -1,5 +1,8 @@
 import os
-print("Menu Driven OS Based Program")
+print("********************************************************************************************")
+print("                                Menu Driven OS Based Program")
+print("********************************************************************************************")
+
 print("Chat with me - ")
 while(1):
     print("Tell Me What u want to do?")
@@ -23,16 +26,16 @@ while(1):
         else:
             os.system("start mswindowsmusic:")
 
-    elif ('explorer' in p or 'file explorer' in p):
+    elif ("open" in p) and ('explorer' in p or 'file explorer' in p):
         os.system("start explorer")
 
-    elif ('task manager' in p or 'taskmanager' in p):
+    elif ("open" in p) and ('task manager' in p or 'taskmanager' in p):
         os.system("taskmgr")
 
-    elif ('alarm' in p or 'clock' in p):
+    elif ("open" in p) and ('alarm' in p or 'clock' in p):
         os.system("start ms-clock:")
 
-    elif ('calendar' in p):
+    elif ("open" in p) and ('calendar' in p):
         os.system("start outlookcal:")
 
     elif(("open" in p) or ("run" in p)) and ("calculator" in p):
@@ -41,25 +44,25 @@ while(1):
     elif(("open" in p)) and ("camera" in p):
         os.system("start microsoft.windows.camera:")
 
-    elif ('action center' in p or 'notification' in p):
+    elif ("open" in p) and ('action center' in p or 'notification' in p):
         os.system("start ms-actioncenter:")
 
-    elif ('paint' in p):
+    elif ("open" in p) and ('paint' in p):
         os.system("start ms-paint:")
 
-    elif ('photo' in p or 'pic' in p):
+    elif ("open" in p) and ('photo' in p or 'pic' in p):
         os.system("start ms-photos:")
 
-    elif ('setting' in p):
+    elif ("open" in p) and ('setting' in p):
         os.system("start ms-settings:")
 
-    elif ('xbox' in p):
+    elif ("open" in p) and ('xbox' in p):
         os.system("start xbox:")
 
-    elif ('map' in p):
+    elif ("open" in p) and ('map' in p):
         os.system("start bingmaps:")
 
-    elif ('mail' in p):
+    elif ("open" in p) and ('mail' in p):
         os.system("start outlookmail:")
 
     elif("exit" in p):
